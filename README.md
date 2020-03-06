@@ -2,7 +2,7 @@
 
 
 1) in terminal use << npx create-react-app file-Name >> to create a new react file.
-2) verify that the app is running correctly using the cmd-line <<npm start>> NB make sure it is the correct file.
+2) verify that the app is running correctly using the cmd-line << npm start >> NB make sure it is the correct file.
 3) Create an empty repository in github without a readme.nd file, and make sure it is on public status. (don't leave the page as it contains some instuction you'll need later).
 4) go back to terminal (little hint to close the server use << ^ c >> for mac).
 5) run the command << npm install gh-pages --save-dev>>
