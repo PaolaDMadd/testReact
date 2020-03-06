@@ -8,7 +8,7 @@
 5) run the command << npm install gh-pages --save-dev>>
 this command creates the dependencies in package.json file. The follows 3 lines need to be added:
 
-6)      one in the beginning << "homepage": "https://PaolaDMadd.github.io/testReact">> 
+6)      one in the beginning << "homepage": "https://PaolaDMadd.github.io/testReact" >> 
         the url needs to be created in this way : "https://githubUserName.github.io/repositoryName"
 
         the second and third will be in the script section add  
@@ -23,21 +23,21 @@ NB:     each line ends with a comma (otherwise the code will break)
         "gh-pages": "^2.2.0"
         }
 
-7) To initialize git use the command <<git init>> (make sure you are in the correct file)
+7) To initialize git use the command << git init >> (make sure you are in the correct file)
 8) Then run the command << git remote add origin https://PaolaDMadd.github.io/testReact.git >> NB: this line will be available on the github initial empty repository page.
 
 This is the right moment to make all modification to the file...be creative!!
 
 9) Let's check if everithing is fine running the command << git status >> this will show all the changes.
    Changes need to be added and committed first using : 
-10) <<git add .>> 
-11) <<git commit -m ' add a comment to the commit'>>
+10) << git add .>> 
+11) << git commit -m ' add a comment to the commit' >>
     NB: if this is the first deploy at this point our user name and password can be required.
 
 now the deploy command can be run to connect the code to the github pages.
-12) <<npm run deploy>> 
+12) << npm run deploy >> 
 The final step is to push the code on our repositiory using
-13) <<git push -u origin master>>
+13) << git push -u origin master >>
 14) It's always better check the new repository we created and see if everything is fine. 
     in the setting tabs scoll down to Github Pages a link will be there with the default branch.
    
