@@ -1,4 +1,4 @@
-# React for newbie: how to deploy react-app in GitHub pages in few steps
+# React for newbie: how to deploy react-app in GitHub pages
 
 
 1) in terminal use << npx create-react-app file-Name >> to create a new react file.
@@ -42,3 +42,5 @@ The final step is to push the code on our repositiory using
     in the setting tabs scoll down to Github Pages a link will be there with the default branch.
    
 Congratulations!! 
+
+video version:  https://www.youtube.com/watch?v=F8s4Ng-re0E
