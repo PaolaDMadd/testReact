@@ -6,7 +6,7 @@
 3) Create an empty repository in github without a readme.nd file, and make sure it is on public status. (don't leave the page as it contains some instuction you'll need later).
 4) go back to terminal (little hint to close the server use << ^ c >> for mac).
 5) run the command << npm install gh-pages --save-dev>>
-this command creates the package.json file, you need to modify adding 3 important lines:
+this command creates the dependencies in package.json file. The follows 3 lines need to be added:
 
 6)      one in the beginning << "homepage": "https://PaolaDMadd.github.io/testReact">> 
         the url needs to be created in this way : "https://githubUserName.github.io/repositoryName"
